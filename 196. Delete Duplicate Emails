@@ -1,0 +1,4 @@
+DELETE FROM person
+USING person p1
+WHERE person.email = p1.email
+AND person.id > p1.id;
